@@ -1,4 +1,4 @@
-\body {
+body {
     font-family: Arial, sans-serif;
     background-color: #0a3d62;
     color: white;
@@ -46,10 +46,12 @@ ul, ol {
     max-width: 400px;
 }
 
-img {
-    margin-top: 1rem;
+.profile-pic {
     width: 150px;
+    height: auto;
     border-radius: 50%;
+    margin: 20px auto;
+    display: block;
 }
 
 a {
