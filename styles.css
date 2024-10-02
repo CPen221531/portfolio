@@ -1,74 +1,36 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0a3d62;
-    color: white;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 16px;
-}
-
+/* Set a consistent height for the header */
 header {
-    background-color: #1e272e;
-    color: white;
+    height: 150px;
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 1.5rem;
+    padding: 20px;
 }
 
-.content {
-    max-width: 700px;
-    margin: 2rem auto;
-    background-color: #2f3640;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
+/* Style the main content area */
+main {
+    height: auto; /* The height will adjust according to the content */
+    padding: 20px;
 }
 
-h2 {
-    color: #ffdd59;
-    margin-bottom: 1rem;
+/* Style the article content */
+article.content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-h3 {
-    margin-top: 1.5rem;
-    color: #ffdd59;
-}
-
-p {
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
-}
-
-ul, ol {
-    text-align: left;
-    margin: 1rem auto;
-    max-width: 400px;
-}
-
+/* Profile picture styling */
 .profile-pic {
     width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin: 20px auto;
+    height: 150px; /* Ensuring the height of the image is uniform */
+    border-radius: 50%; /* Make the image circular */
     display: block;
+    margin: 20px auto;
 }
 
-a {
-    color: #ffdd59;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+/* Footer styling */
 footer {
-    background-color: #1e272e;
-    color: white;
+    height: 50px;
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 1.5rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    line-height: 50px; /* Centering the text vertically */
 }
